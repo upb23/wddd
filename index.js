@@ -72,7 +72,7 @@ async function startXeonBotInc() {
     const XeonBotInc = XeonBotIncConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['Cheems Bot MD','Safari','1.0.0'],
+        browser: ['BAKAR Bot MD','Safari','1.0.0'],
         auth: state
     })
 
@@ -99,7 +99,7 @@ async function startXeonBotInc() {
         if (!XeonBotInc.public && !mek.key.fromMe && chatUpdate.type === 'notify') return
         if (mek.key.id.startsWith('BAE5') && mek.key.id.length === 16) return
         m = smsg(XeonBotInc, mek, store)
-        require("./XeonCheems6")(XeonBotInc, m, chatUpdate, store)
+        require("./BAKARBOT")(XeonBotInc, m, chatUpdate, store)
         } catch (e) {
             console.log(e)
         }
@@ -164,85 +164,71 @@ XeonLft = await getBuffer(ppuser)
                 if (anu.action == 'add') {
                 const xeonbuffer = await getBuffer(ppuser)
                 let xeonName = num
-                const xtime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
-	            const xdate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
+                const xtime = moment.tz('Africa/Cairo').format('HH:mm:ss')
+	            const xdate = moment.tz('Africa/Cairo').format('DD/MM/YYYY')
 	            const xmembers = metadata.participants.length
                 let unicorndoc = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "916909137213-1604595598@g.us"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: XeonWlcm, surface: 200, message: `${metadata.subject}`, orderTitle: 'xeon', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
-                xeonbody = `┌─❖
-│「 𝗛𝗶 👋 」
-└┬❖ 「 @${xeonName.split("@")[0]}  」
-   │✑  𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 
-   │✑  ${metadata.subject}
-   │✑  𝗠𝗲𝗺𝗯𝗲𝗿 : 
-   │✑ ${xmembers}th
-   │✑  𝗝𝗼𝗶𝗻𝗲𝗱 : 
-   │✑ ${xtime} ${xdate}
-   └───────────────┈ ⳹`
+                xeonbody = `👋🏻╖ نورت جروبنا 🤍
+😊╢ ❬  @${xeonName.split("@")[0]} ❭ 
+💟╢ فى روم ${metadata.subject}
+🚫╢ ممنوع الالفاظ والبرايفت واللينكات ⚠️
+🤗╢ غير كدة كلنا اخوات واصحاب ❤️‍🩹
+👥╢ عدد الاعضاء الان ❬ ${xmembers} ❭
+🕐╢ وقت دخولك ❬ ${xtime} ❭
+🗓╜ تاريخ دخولك ❬ ${xdate} ❭`
 let buttons = [
-{buttonId: `wkwwk`, buttonText: {displayText: 'Welcome 💐'}, type: 1}
+{buttonId: `wkwwk`, buttonText: {displayText: '• نورت جروبنا 🤗'}, type: 1}
 ]
 let buttonMessage = {
-document: fs.readFileSync('./XeonMedia/theme/cheems.xlsx'),
-mimetype: docs,
+image: { url: 'https://i.ibb.co/hXtGkzj/welcome-poster-spectrum-brush-strokes-white-background-colorful-gradient-brush-design-vector-paper-i.jpg'},
 jpegThumbnail:XeonWlcm,
 mentions: [num],
-fileName: `${metadata.subject}`,
-fileLength: 99999999999999,
 caption: xeonbody,
 footer: `${botname}`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title: `${ownername}`,
-body: `Don't forget to read group description`,
+title: `${metadata.subject}`,
+body: `نورتنا`,
 mediaType:2,
 thumbnail: XeonWlcm,
-sourceUrl: `${websitex}`,
-mediaUrl: `${websitex}`
 }}
 }
-XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
+XeonBotInc.sendMessage(anu.id, buttonMessage)
                 } else if (anu.action == 'remove') {
                 	const xeonbuffer = await getBuffer(ppuser)
-                    const xeontime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
-	                const xeondate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
+                    const xeontime = moment.tz('Africa/Cairo').format('HH:mm:ss')
+	                const xeondate = moment.tz('Africa/Cairo').format('DD/MM/YYYY')
                 	let xeonName = num
                     const xeonmembers = metadata.participants.length
                     let unicorndoc = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "916909137213-1604595598@g.us"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: xeonbuffer, surface: 200, message: `${metadata.subject}`, orderTitle: 'xeon', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
-                    xeonbody = `┌─❖
-│「 𝗚𝗼𝗼𝗱𝗯𝘆𝗲 👋 」
-└┬❖ 「 @${xeonName.split("@")[0]}  」
-   │✑  𝗟𝗲𝗳𝘁 
-   │✑ ${metadata.subject}
-   │✑  𝗠𝗲𝗺𝗯𝗲𝗿 : 
-   │✑ ${xeonmembers}th
-   │✑  𝗧𝗶𝗺𝗲 : 
-   │✑  ${xeontime} ${xeondate}
-   └───────────────┈ ⳹`
+                    xeonbody = `🙄╖ ليه غادرت جروبنا 🥹😞
+😒╢ ❬ @${xeonName.split("@")[0]} ❭ 
+💟╢ حد يكون فى روم ${metadata.subject}
+🤗╢  ده ويخرج ده حتى كلنا اخوات واصحاب 🥺❤️
+🦶🏻╢ يلا بالسلامات 😂💗
+👥╢ عدد الاعضاء الان ❬ ${xeonmembers} ❭
+🕐╢ وقت دخولك ❬ ${xeontime} ❭
+🗓╜ تاريخ دخولك ❬ ${xeondate} ❭`
 let buttons = [
-{buttonId: `wkwkwk`, buttonText: {displayText: 'Sayonara 🥀'}, type: 1}
+{buttonId: `bakar`, buttonText: {displayText: '• ليه غادرت جروبنا 😞'}, type: 1}
 ]
 let buttonMessage = {
-document: fs.readFileSync('./XeonMedia/theme/cheems.xlsx'),
-mimetype: docs,
+image: { url: 'https://i.ibb.co/gytytkM/images.jpg'},    
 jpegThumbnail:XeonLft,
 mentions: [num],
-fileName: `${metadata.subject}`,
-fileLength: 99999999999999,
 caption: xeonbody,
 footer: `${botname}`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title: `${ownername}`,
-body: `Bye! my friend, take care.`,
+title: `${metadata.subject}`,
+body: `مع السلامة`,
 mediaType:2,
 thumbnail: XeonLft,
-sourceUrl: `${websitex}`,
-mediaUrl: `${websitex}`
 }}
 }
-XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
+XeonBotInc.sendMessage(anu.id, buttonMessage)
                              
                 }
             }
@@ -289,7 +275,7 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
 	for (let i of kon) {
 	    list.push({
 	    	displayName: await XeonBotInc.getName(i),
-	    	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await XeonBotInc.getName(i)}\nFN:${await XeonBotInc.getName(i)}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Click here to chat\nitem2.EMAIL;type=INTERNET:${ytname}\nitem2.X-ABLabel:YouTube\nitem3.URL:${socialm}\nitem3.X-ABLabel:GitHub\nitem4.ADR:;;${location};;;;\nitem4.X-ABLabel:Region\nEND:VCARD`
+	    	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await XeonBotInc.getName(i)}\nFN:${await XeonBotInc.getName(i)}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:اضغط لتواصل مع مطور ليدو\nitem2.EMAIL;type=INTERNET:${igname}\nitem2.X-ABLabel:انستا\nitem3.URL:${socialm}\nitem3.X-ABLabel:lido7x.netlify.app\nitem4.ADR:;;${location};;;;\nitem4.X-ABLabel:المنطقة\nEND:VCARD`
 	    })
 	}
 	XeonBotInc.sendMessage(jid, { contacts: { displayName: `${list.length} Kontak`, contacts: list }, ...opts }, { quoted })
