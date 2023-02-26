@@ -16,22 +16,22 @@ global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
 global.owner = ['201028453763'] //ur owner number
-global.ownername = "🦄Dream Guy Xeon" //ur owner name
-global.ytname = "YT: Xeon" //ur yt chanel name
-global.socialm = "GitHub: DGXeon" //ur github or insta name
-global.location = "India, Mizoram, Aizawl" //ur location
+global.ownername = " DEV: Lido 🧑🏻‍💻" //ur owner name
+global.igname = "insta : lido7x" //ur yt chanel name
+global.socialm = "lido7x.netlify.app" //ur github or insta name
+global.location = "Egypt, Sohag" //ur location
 
 //bot bomdy 
 global.ownernomer = "201028453763" //ur number
 global.premium = ['201028453763'] //ur premium number
-global.botname = 'Cheems Bot MD V6' //ur bot name
-global.linkz = "https://chat.whatsapp.com/HYj9wu5Jrv6CROxyeQbHoS" //your theme url which will be displayed on whatsapp
-global.websitex = "https://youtu.be/WiIqCdiDjFo" //ur website to be displayed
-global.botscript = 'https://github.com/DGXeon/CheemsBot-MD6' //script link
+global.botname = 'BAKAR Bot ~ DEV: Lido 🧑🏻‍💻' //ur bot name
+global.linkz = "https://t.me/UPDATE_BAKAR" //your theme url which will be displayed on whatsapp
+global.websitex = "https://t.me/UPDATE_BAKAR" //ur website to be displayed
+global.botscript = 'https://t.me/UPDATE_BAKAR' //script link
 global.themeemoji = "🦄" //ur theme emoji
 global.packname = "Sticker By" //ur sticker watermark packname
-global.author = "Cheems Bot\n\n\nA whatsapp bot developed by\n🦄Dream Guy Xeon\n\n\n\n\n\n\n\n       --------______-------\n\n\n\n\n\n\n\nContact No. : +916909137213" //ur sticker watermark author
-global.wm = "Xeon Bot Inc." //ur watermark
+global.author = "BAKAR Bot\n\n\nA whatsapp bot developed by\nDEV: Lido 🧑🏻‍💻\n\n\n\n\n\n\n\n       --------______-------\n\n\n\n\n\n\n\nلتواصل معي : +201028453763" //ur sticker watermark author
+global.wm = "BAKAR Bot~ DEV: Lido 🧑🏻‍💻" //ur watermark
 
 // Other
 global.sessionName = 'session'
@@ -40,25 +40,25 @@ global.sp = ''
 
 //messages
 global.mess = {
-    success: 'Here you go!',
-    admin: 'This feature could be used by admins only!',
-    botAdmin: 'Bot Must Be Admin First!',
-    premime: 'Premium Special Features If You Want to Register Type Rent',
-    owner: 'This feature could be used by owner only',
+    success: '• تم بنجاح',
+    admin: '• هذا الامر للمشرفين فقط ',
+    botAdmin: '• ارفعني مشرف الاول',
+    premime: 'Premium',
+    owner: '• هذا الامر للمطور ليدو فقط',
     group: 'Features Used Only For Groups!',
     private: 'Features Used Only For Private Chat!',
     bot: 'This feature could be used by bot only',
-    wait: 'In process...',
+    wait: '• جاري تحميل ....',
     linkm: 'Where is the link?',
     endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
     nsfw: 'The nsfw feature has not been activated, please contact the admin to activate',
 }
 
 //media target
-global.thum = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
-global.log0 = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur logo pic
-global.err4r = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur error pic
-global.thumb = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
+global.thum = fs.readFileSync("./XeonMedia/theme/unnamed.png") //ur thumb pic
+global.log0 = fs.readFileSync("./XeonMedia/theme/unnamed.png") //ur logo pic
+global.err4r = fs.readFileSync("./XeonMedia/theme/unnamed.png") //ur error pic
+global.thumb = fs.readFileSync("./XeonMedia/theme/unnamed.png") //ur thumb pic
 
 //menu image maker
 global.flaming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
