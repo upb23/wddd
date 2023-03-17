@@ -9057,7 +9057,7 @@ case 'wqwwq2121r':
 	════════ ××× ════════ٴ
 	⤶ حلقات موجودة في قناة علي تليجرام  
 	
-	• الرابط -› https://t.me/wa_bakar_bot/6 
+	• الرابط -› https://t.me/c/1951457284/6 
 	════════ ××× ════════ٴ
 	
 
@@ -9440,7 +9440,8 @@ case 'دليل_الطالب': case 'الدليل_الطالب': case 'الدلي
 	♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
 	ـــــــــــــــــــــــــــــــــــــــــــــ
 	⤵️︙ اليـكـ ازرار الدعم الفنـي خاصة بالبوت ♥️ `
-	let buttons = [{ buttonId: 'duthgsf', buttonText: { displayText: 'الدعم الفنـي' }, type: 1 },{ buttonId: 'commlido', buttonText: { displayText: 'عودة الي الــقــائمــة' }, type: 1 },{ buttonId: 'owner', buttonText: { displayText: 'المطور' }, type: 1 }]
+	let buttons = [{ buttonId: 'duthgsf', buttonText: { displayText: 'الدعم الفنـي' }, type: 1 },{ buttonId: 'tslido', buttonText: { displayText: 'عودة الي قائمة المواد' },
+	 type: 1 },{ buttonId: 'owner', buttonText: { displayText: 'المطور' }, type: 1 }]
 	let buttonMessage = { 
 		document: fs.readFileSync('./XeonMedia/file/الدليل.pdf'),
 		fileName : `مذكرة الدليل الطالب`,
@@ -9479,22 +9480,22 @@ case 'mcsslido': {
 										{
 											"title": "4️⃣ مذكرة محاسبة مؤسسات 4 جزء 1",
 											"description": "ماده محاسبة مؤسسات بواسطة بوت بكار 🐼",
-											"rowId": `${prefix}comm22lido`
+											"rowId": `${prefix}mcswwwww2lido`
 											},
 											{
 												"title": "4️⃣ مذكرة محاسبة مؤسسات 4 جزء 2",
 												"description": "ماده محاسبة مؤسسات بواسطة بوت بكار 🐼",
-												"rowId": `${prefix}comm23lido`
+												"rowId": `${prefix}mcsaas2lido`
 												},									
 												{
 													"title": "4️⃣ مذكرة محاسبة مؤسسات 4 جزء 3",
 													"description": "ماده محاسبة مؤسسات بواسطة بوت بكار 🐼",
-													"rowId": `${prefix}comm24lido`
+													"rowId": `${prefix}mcswwwaqs2lido`
 												},	
 												{
 													"title": "4️⃣ مذكرة محاسبة مؤسسات 4 جزء 4",
 													"description": "ماده محاسبة مؤسسات بواسطة بوت بكار 🐼",
-													"rowId": `${prefix}comm25lido`
+													"rowId": `${prefix}mcssqqq2lido`
 												},
 										{
 										"title": "*️⃣ مذكرة امتحانات محاسبة مؤسسات",
@@ -9504,7 +9505,7 @@ case 'mcsslido': {
 									{
 										"title": "#️⃣ الكتاب",
 										"description": "ماده محاسبة شركات بواسطة بوت بكار 🐼",
-										"rowId": `${prefix}comm26lido`
+										"rowId": `${prefix}mcssqssasa2lido`
 									}, 
 										{
 										"title": "#️⃣ مذكرة دليل الطالب",
@@ -9514,7 +9515,22 @@ case 'mcsslido': {
 								]
 							},
 							{
-								"title": "⏺ قائمة شروحات محاسبة مؤسسات",
+								"title": "⏺ (احمد عبود) قائمة شروحات محاسبة مؤسسات",
+								"rows": [
+									{
+										"title": "قائمة الشرح علي يوتيوب",
+										"description": "ماده محاسبة شركات بواسطة بوت بكار 🐼",
+										"rowId": `${prefix}dsaqwqwaaa`
+									},
+										{
+										"title": "قائمة الشرح علي تليجرام لتحميل",
+										"description": "ماده محاسبة شركات بواسطة بوت بكار 🐼",
+										"rowId": `${prefix}hyuhrruuu66`
+									}
+								]
+							},
+							{
+								"title": "⏺ (محمد بخيت) قائمة شروحات محاسبة مؤسسات",
 								"rows": [
 									{
 										"title": "1️⃣ الحصة الاولي",
@@ -9570,26 +9586,26 @@ const sendMsg = await XeonBotInc.sendMessage(m.chat, listMessage)
 }
 break
 
-case 'wqwwq2121r': 
+case 'hyuhrruuu66': 
 	throw `
-	💠 ❬ شرح احمد عبود محاسبة شركات  ❭ ⇊ 
+	💠 ❬ شرح احمد عبود محاسبة مؤسسات  ❭ ⇊ 
 	════════ ××× ════════ٴ
 	⤶ حلقات موجودة في قناة علي تليجرام  
 	
-	• الرابط -› https://t.me/wa_bakar_bot/6 
+	• الرابط -› https://t.me/c/1987976482/2
 	════════ ××× ════════ٴ
 	
 
 	`
 	break 
 
-	case 'haasqqwq22': 
+	case 'dsaqwqwaaa': 
 	throw `
-	💠 ❬ شرح احمد عبود محاسبة شركات  ❭ ⇊ 
+	💠 ❬ شرح احمد عبود محاسبة مؤسسات  ❭ ⇊ 
 	════════ ××× ════════ٴ
 	⤶ حلقات من اليوتيوب 
 	
-	• الرابط -› https://youtube.com/playlist?list=PLg5R9UDGiUIMghkUJno6Mc9CawmC-ZHGp
+	• الرابط -› https://youtube.com/playlist?list=PLg5R9UDGiUIP2KfmgI9THm45m7w-GGQR_
 	════════ ××× ════════ٴ
 	ٴ
 
@@ -9686,7 +9702,7 @@ case 'محاسبة_مؤسسات_1': case 'mcss1lido': {
 ـــــــــــــــــــــــــــــــــــــــــــــ
 	⤵️︙ اليـكـ ازرار الدعم الفنـي خاصة بالبوت ♥️
 	`
-	let buttons = [{ buttonId: 'duthgsf', buttonText: { displayText: 'الدعم الفنـي' }, type: 1 },{ buttonId: 'commlido', buttonText: { displayText: 'عودة الي الــقــائمــة' }, type: 1 },{ buttonId: 'owner', buttonText: { displayText: 'المطور' }, type: 1 }]
+	let buttons = [{ buttonId: 'duthgsf', buttonText: { displayText: 'الدعم الفنـي' }, type: 1 },{ buttonId: 'tslido', buttonText: { displayText: 'عودة الي قائمة المواد' }, type: 1 },{ buttonId: 'mcss2lido', buttonText: { displayText: 'مــذكرة اخــري' }, type: 1 }]
 	let buttonMessage = { 
 		document: fs.readFileSync('./XeonMedia/file/محاسبة_مؤسسات_1.pdf'),
 		fileName : `مذكرة محاسبة مؤسسات 1`,
@@ -9711,7 +9727,7 @@ case 'محاسبة_مؤسسات_2': case 'mcss2lido': {
 ـــــــــــــــــــــــــــــــــــــــــــــ
 	⤵️︙ اليـكـ ازرار الدعم الفنـي خاصة بالبوت ♥️
 		`
-	let buttons = [{ buttonId: 'duthgsf', buttonText: { displayText: 'الدعم الفنـي' }, type: 1 },{ buttonId: 'commlido', buttonText: { displayText: 'عودة الي الــقــائمــة' }, type: 1 },{ buttonId: 'owner', buttonText: { displayText: 'المطور' }, type: 1 }]
+	let buttons = [{ buttonId: 'duthgsf', buttonText: { displayText: 'الدعم الفنـي' }, type: 1 },{ buttonId: 'tslido', buttonText: { displayText: 'عودة الي قائمة المواد' }, type: 1 },{ buttonId: 'mcss3lido', buttonText: { displayText: 'مــذكرة اخــري' }, type: 1 }]
 	let buttonMessage = { 
 		document: fs.readFileSync('./XeonMedia/file/محاسبة_مؤسسات_2.pdf'),
 		fileName : `مذكرة محاسبة مؤسسات 2`,
@@ -9734,10 +9750,110 @@ case 'محاضرة_محاسبة_مؤسسات': case 'mcss3lido': {
 	♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
 	ـــــــــــــــــــــــــــــــــــــــــــــ
 	⤵️︙ اليـكـ ازرار الدعم الفنـي خاصة بالبوت ♥️ `
-	let buttons = [{ buttonId: 'duthgsf', buttonText: { displayText: 'الدعم الفنـي' }, type: 1 },{ buttonId: 'commlido', buttonText: { displayText: 'عودة الي الــقــائمــة' }, type: 1 },{ buttonId: 'owner', buttonText: { displayText: 'المطور' }, type: 1 }]
+	let buttons = [{ buttonId: 'duthgsf', buttonText: { displayText: 'الدعم الفنـي' }, type: 1 },{ buttonId: 'tslido', buttonText: { displayText: 'عودة الي قائمة المواد' }, type: 1 },{ buttonId: 'mcswwwww2lido', buttonText: { displayText: 'مــذكرة اخــري' }, type: 1 }]
 	let buttonMessage = { 
 		document: fs.readFileSync('./XeonMedia/file/محاضرة_محاسبة_مؤسسات.pdf'),
 		fileName : `محاضرة اولي محاسبة مؤسسات`,
+		mimetype: `application/pdf`,             
+		caption: xeonwee,
+		footer: botname,
+buttons: buttons,
+
+
+}
+XeonBotInc.sendMessage(m.chat, buttonMessage )
+}
+break
+
+case 'محاسبة_مؤسسات_4_جزء_1': case 'mcswwwww2lido': {
+	let xeonwee = `
+	ـــــــــــــــــــــــــــــــــــــــــــــ
+	-›  ${ucapanWaktu}
+	-›  نورت يا ${pushname} 
+	-› خد يغالي/ة  مذكرة محاسبة مؤسسات 4 جزء 1  😊
+	♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+	ـــــــــــــــــــــــــــــــــــــــــــــ
+	⤵️︙ اليـكـ ازرار الدعم الفنـي خاصة بالبوت ♥️
+		`
+		let buttons = [{ buttonId: 'duthgsf', buttonText: { displayText: 'الدعم الفنـي' }, type: 1 },{ buttonId: 'tslido', buttonText: { displayText: 'عودة الي قائمة المواد' }, type: 1 },{ buttonId: 'mcsaas2lido', buttonText: { displayText: 'مــذكرة اخــري' }, type: 1 }]
+		let buttonMessage = { 
+		document: fs.readFileSync('./XeonMedia/file/محاسبة_مؤسسات_4_جزء_1.pdf'),
+		fileName : `مذكرة محاسبة مؤسسات 4 جزء 1`,
+		mimetype: `application/pdf`,             
+		caption: xeonwee,
+		footer: botname,
+buttons: buttons,
+
+
+}
+XeonBotInc.sendMessage(m.chat, buttonMessage )
+}
+break
+
+case 'محاسبة_مؤسسات_4_جزء_2': case 'mcsaas2lido': {
+	let xeonwee = `
+	ـــــــــــــــــــــــــــــــــــــــــــــ
+	-›  ${ucapanWaktu}
+	-›  نورت يا ${pushname} 
+	-› خد يغالي/ة  مذكرة محاسبة مؤسسات 4 جزء 2  😊
+	♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+	ـــــــــــــــــــــــــــــــــــــــــــــ
+	⤵️︙ اليـكـ ازرار الدعم الفنـي خاصة بالبوت ♥️
+		`
+		let buttons = [{ buttonId: 'duthgsf', buttonText: { displayText: 'الدعم الفنـي' }, type: 1 },{ buttonId: 'tslido', buttonText: { displayText: 'عودة الي قائمة المواد' }, type: 1 },{ buttonId: 'mcswwwaqs2lido', buttonText: { displayText: 'مــذكرة اخــري' }, type: 1 }]
+		let buttonMessage = { 
+		document: fs.readFileSync('./XeonMedia/file/محاسبة_مؤسسات_4_جزء_2.pdf'),
+		fileName : `مذكرة محاسبة مؤسسات 4 جزء 2`,
+		mimetype: `application/pdf`,             
+		caption: xeonwee,
+		footer: botname,
+buttons: buttons,
+
+
+}
+XeonBotInc.sendMessage(m.chat, buttonMessage )
+}
+break
+
+case 'محاسبة_مؤسسات_4_جزء_3': case 'mcswwwaqs2lido': {
+	let xeonwee = `
+	ـــــــــــــــــــــــــــــــــــــــــــــ
+	-›  ${ucapanWaktu}
+	-›  نورت يا ${pushname} 
+	-› خد يغالي/ة  مذكرة محاسبة مؤسسات 4 جزء 3  😊
+	♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+	ـــــــــــــــــــــــــــــــــــــــــــــ
+	⤵️︙ اليـكـ ازرار الدعم الفنـي خاصة بالبوت ♥️
+		`
+		let buttons = [{ buttonId: 'duthgsf', buttonText: { displayText: 'الدعم الفنـي' }, type: 1 },{ buttonId: 'tslido', buttonText: { displayText: 'عودة الي قائمة المواد' }, type: 1 },{ buttonId: 'mcssqqq2lido', buttonText: { displayText: 'مــذكرة اخــري' }, type: 1 }]
+		let buttonMessage = { 
+		document: fs.readFileSync('./XeonMedia/file/محاسبة_مؤسسات_4_جزء_3.pdf'),
+		fileName : `مذكرة محاسبة مؤسسات 4 جزء 3`,
+		mimetype: `application/pdf`,             
+		caption: xeonwee,
+		footer: botname,
+buttons: buttons,
+
+
+}
+XeonBotInc.sendMessage(m.chat, buttonMessage )
+}
+break
+
+case 'محاسبة_مؤسسات_4_جزء_4': case 'mcssqqq2lido': {
+	let xeonwee = `
+	ـــــــــــــــــــــــــــــــــــــــــــــ
+	-›  ${ucapanWaktu}
+	-›  نورت يا ${pushname} 
+	-› خد يغالي/ة  مذكرة محاسبة مؤسسات 4 جزء 4  😊
+	♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+	ـــــــــــــــــــــــــــــــــــــــــــــ
+	⤵️︙ اليـكـ ازرار الدعم الفنـي خاصة بالبوت ♥️
+		`
+		let buttons = [{ buttonId: 'duthgsf', buttonText: { displayText: 'الدعم الفنـي' }, type: 1 },{ buttonId: 'tslido', buttonText: { displayText: 'عودة الي قائمة المواد' }, type: 1 },{ buttonId: 'mcss4lido', buttonText: { displayText: 'مــذكرة اخــري' }, type: 1 }]
+		let buttonMessage = { 
+		document: fs.readFileSync('./XeonMedia/file/محاسبة_مؤسسات_4_جزء_4.pdf'),
+		fileName : `مذكرة محاسبة مؤسسات 4 جزء 4`,
 		mimetype: `application/pdf`,             
 		caption: xeonwee,
 		footer: botname,
@@ -9758,7 +9874,7 @@ case 'امتحانات_محاسبة_مؤسسات': case 'mcss4lido': {
 	♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
 ـــــــــــــــــــــــــــــــــــــــــــــ
 	⤵️︙ اليـكـ ازرار الدعم الفنـي خاصة بالبوت ♥️ 	`
-	let buttons = [{ buttonId: 'duthgsf', buttonText: { displayText: 'الدعم الفنـي' }, type: 1 },{ buttonId: 'commlido', buttonText: { displayText: 'عودة الي الــقــائمــة' }, type: 1 },{ buttonId: 'owner', buttonText: { displayText: 'المطور' }, type: 1 }]
+	let buttons = [{ buttonId: 'duthgsf', buttonText: { displayText: 'الدعم الفنـي' }, type: 1 },{ buttonId: 'tslido', buttonText: { displayText: 'عودة الي قائمة المواد' }, type: 1 },{ buttonId: 'mcssqssasa2lido', buttonText: { displayText: 'مــذكرة اخــري' }, type: 1 }]
 	let buttonMessage = { 
 		document: fs.readFileSync('./XeonMedia/file/امتحانات_محاسبة_المؤسسات.pdf'),
 		fileName : `مذكرة امتحانات محاسبة مؤسسات`,
@@ -9773,18 +9889,20 @@ XeonBotInc.sendMessage(m.chat, buttonMessage )
 }
 break
 
-case 'دليل_الطالب': case 'الدليل_الطالب': case 'الدليل': case 'comm6lido': {
-	let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+
+case 'كتاب_محاسبة_مؤسسات': case 'mcssqssasa2lido': {
+	let xeonwee = `
+	ـــــــــــــــــــــــــــــــــــــــــــــ
 	-›   ${ucapanWaktu}
 	-›  نورت يا ${pushname} 
-	-› خد يغالي/ة  مذكرة دليل الطالب 🤗
+	-› خد يغالي/ة  كتاب محاسبة مؤسسات 🤗
 	♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
-	ـــــــــــــــــــــــــــــــــــــــــــــ
-	⤵️︙ اليـكـ ازرار الدعم الفنـي خاصة بالبوت ♥️ `
-	let buttons = [{ buttonId: 'duthgsf', buttonText: { displayText: 'الدعم الفنـي' }, type: 1 },{ buttonId: 'commlido', buttonText: { displayText: 'عودة الي الــقــائمــة' }, type: 1 },{ buttonId: 'owner', buttonText: { displayText: 'المطور' }, type: 1 }]
+ـــــــــــــــــــــــــــــــــــــــــــــ
+	⤵️︙ اليـكـ ازرار الدعم الفنـي خاصة بالبوت ♥️ 	`
+	let buttons = [{ buttonId: 'duthgsf', buttonText: { displayText: 'الدعم الفنـي' }, type: 1 },{ buttonId: 'tslido', buttonText: { displayText: 'عودة الي قائمة المواد' }, type: 1 },{ buttonId: 'comm6lido', buttonText: { displayText: 'مــذكرة اخــري' }, type: 1 }]
 	let buttonMessage = { 
-		document: fs.readFileSync('./XeonMedia/file/الدليل.pdf'),
-		fileName : `مذكرة الدليل الطالب`,
+		document: fs.readFileSync('./XeonMedia/file/كتاب_محاسبه_مؤسسات.pdf'),
+		fileName : `كتاب  محاسبة مؤسسات`,
 		mimetype: `application/pdf`,             
 		caption: xeonwee,
 		footer: botname,
@@ -9794,7 +9912,7 @@ buttons: buttons,
 }
 XeonBotInc.sendMessage(m.chat, buttonMessage )
 }
-break
+
 
 //-------- 3------\\
 
