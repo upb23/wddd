@@ -3752,10 +3752,34 @@ case 'رنة': case 'رنه': case 'نغمة': case 'ringtone': {
 	case 'sound158':
 	case 'sound159':
 	case 'sound160':
-	case 'wer':
-	XeonBotInc_dev = await getBuffer(`https://github.com/T556yyhe4r/Tiktokmusic-API/raw/master/tiktokmusic/${command}.mp3`)
-	await XeonBotInc.sendMessage(m.chat, { audio: XeonBotInc_dev, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+		case 'wer': case 'اوامرر':
+	XeonBotInc_dev = await getBuffer(`https://github.com/ytyu5452/Tiktokmusic-API/raw/master/tiktokmusic/${command}.mp3`)
+	await XeonBotInc.sendMessage(m.chat, { audio: XeonBotInc_dev, mimetype: 'audio/ogg', ptt: true }, { quoted: m })     
 	break
+
+	case 'الايييوامر': case 'weeer': {
+		let xeonwee = `
+	ـــــــــــــــــــــــــــــــــــــــــــــ
+	-›  ${ucapanWaktu}
+	-›  نورت يا ${pushname} 
+	-› خد يغالي/ة  مذكرة محاسبة ضريبة 2😍
+	♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+	ـــــــــــــــــــــــــــــــــــــــــــــ
+	⤵️︙ اليـكـ ازرار الدعم الفنـي خاصة بالبوت ♥️
+			`
+		let buttons = [{ buttonId: 'duthgsf', buttonText: { displayText: 'الدعم الفنـي' }, type: 1 },{ buttonId: 'commlido', buttonText: { displayText: 'عودة الي الــقــائمــة' }, type: 1 },{ buttonId: 'owner', buttonText: { displayText: 'المطور' }, type: 1 }]
+		let buttonMessage = { 
+			audio: fs.readFileSync('./XeonMedia/audio/اوامرر.ogg'),
+			fileName : `weer`,
+			mimetype: `audio/ogg`,             
+			
+	
+	
+	}
+	XeonBotInc.sendMessage(m.chat, buttonMessage , { quoted: m })
+	}
+	break
+
 	case 'hijack':{
 	  if(!isCreator) throw mess.owner
 	  let text1 = q.split("|")[0]
@@ -11144,12 +11168,13 @@ break
 			        {buttonId: `command2`, buttonText: {displayText: '● قائمة الاوامر ●'}, type: 1},
 			        {buttonId: `owner`, buttonText: {displayText: '● المطور ●'}, type: 2},
 				]
+				XeonBotInc.sendMessage(from, { react: { text: `💖`, key: m.key }}) 
 				let buttonMessage = { 
-					image: { url: 'https://telegra.ph/file/895eed0f03b9b14c608fb.jpg'},
+					image: { url: 'https://telegra.ph/file/895eed0f03b9b14c608fb.jpg'}, 		
 					caption: LIDOMD,
 					footer: botname,
 					buttons: buttons,
-					headerType: 4,
+					headerType: 8,
 	  }
 	  XeonBotInc.sendMessage(m.chat, buttonMessage )
 	  }
