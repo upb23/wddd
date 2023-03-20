@@ -9242,6 +9242,7 @@ case 'hygfywsh3':
 	
 	
 	}
+	XeonBotInc.sendMessage(from, { react: { text: `📚`, key: m.key }}) 
 	XeonBotInc.sendMessage(m.chat, buttonMessage )
 	}
 	break
@@ -9267,6 +9268,7 @@ case 'hygfywsh3':
 	
 	
 	}
+	XeonBotInc.sendMessage(from, { react: { text: `📚`, key: m.key }}) 
 	XeonBotInc.sendMessage(m.chat, buttonMessage )
 	}
 	break
@@ -9290,6 +9292,7 @@ case 'hygfywsh3':
 	
 	
 	}
+	XeonBotInc.sendMessage(from, { react: { text: `📚`, key: m.key }}) 
 	XeonBotInc.sendMessage(m.chat, buttonMessage )
 	}
 	break
@@ -9313,6 +9316,7 @@ case 'hygfywsh3':
 	
 	
 	}
+	XeonBotInc.sendMessage(from, { react: { text: `📚`, key: m.key }}) 
 	XeonBotInc.sendMessage(m.chat, buttonMessage )
 	}
 	break
@@ -9336,6 +9340,7 @@ case 'hygfywsh3':
 	
 	
 	}
+	XeonBotInc.sendMessage(from, { react: { text: `📚`, key: m.key }}) 
 	XeonBotInc.sendMessage(m.chat, buttonMessage )
 	}
 	break
@@ -9359,6 +9364,7 @@ case 'hygfywsh3':
 	
 	
 	}
+	XeonBotInc.sendMessage(from, { react: { text: `📚`, key: m.key }}) 
 	XeonBotInc.sendMessage(m.chat, buttonMessage )
 	}
 	break
@@ -9382,6 +9388,7 @@ case 'hygfywsh3':
 	
 	
 	}
+	XeonBotInc.sendMessage(from, { react: { text: `📚`, key: m.key }}) 
 	XeonBotInc.sendMessage(m.chat, buttonMessage )
 	}
 	break
@@ -9405,6 +9412,7 @@ case 'hygfywsh3':
 	
 	
 	}
+	XeonBotInc.sendMessage(from, { react: { text: `📚`, key: m.key }}) 
 	XeonBotInc.sendMessage(m.chat, buttonMessage )
 	}
 	break
@@ -9429,6 +9437,7 @@ buttons: buttons,
 
 
 }
+XeonBotInc.sendMessage(from, { react: { text: `📚`, key: m.key }}) 
 XeonBotInc.sendMessage(m.chat, buttonMessage )
 }
 break
@@ -9476,6 +9485,7 @@ buttons: buttons,
 
 
 }
+XeonBotInc.sendMessage(from, { react: { text: `📘`, key: m.key }}) 
 XeonBotInc.sendMessage(m.chat, buttonMessage )
 }
 break
@@ -9737,6 +9747,7 @@ buttons: buttons,
 
 
 }
+XeonBotInc.sendMessage(from, { react: { text: `📚`, key: m.key }}) 
 XeonBotInc.sendMessage(m.chat, buttonMessage )
 }
 break
@@ -9762,6 +9773,7 @@ buttons: buttons,
 
 
 }
+XeonBotInc.sendMessage(from, { react: { text: `📚`, key: m.key }}) 
 XeonBotInc.sendMessage(m.chat, buttonMessage )
 }
 break
@@ -9785,6 +9797,7 @@ buttons: buttons,
 
 
 }
+XeonBotInc.sendMessage(from, { react: { text: `📚`, key: m.key }}) 
 XeonBotInc.sendMessage(m.chat, buttonMessage )
 }
 break
@@ -9810,6 +9823,7 @@ buttons: buttons,
 
 
 }
+XeonBotInc.sendMessage(from, { react: { text: `📚`, key: m.key }}) 
 XeonBotInc.sendMessage(m.chat, buttonMessage )
 }
 break
@@ -9835,6 +9849,7 @@ buttons: buttons,
 
 
 }
+XeonBotInc.sendMessage(from, { react: { text: `📚`, key: m.key }}) 
 XeonBotInc.sendMessage(m.chat, buttonMessage )
 }
 break
@@ -9860,6 +9875,7 @@ buttons: buttons,
 
 
 }
+XeonBotInc.sendMessage(from, { react: { text: `📚`, key: m.key }}) 
 XeonBotInc.sendMessage(m.chat, buttonMessage )
 }
 break
@@ -9885,6 +9901,7 @@ buttons: buttons,
 
 
 }
+XeonBotInc.sendMessage(from, { react: { text: `📚`, key: m.key }}) 
 XeonBotInc.sendMessage(m.chat, buttonMessage )
 }
 break
@@ -9909,6 +9926,7 @@ buttons: buttons,
 
 
 }
+XeonBotInc.sendMessage(from, { react: { text: `📚`, key: m.key }}) 
 XeonBotInc.sendMessage(m.chat, buttonMessage )
 }
 break
@@ -9934,6 +9952,7 @@ buttons: buttons,
 
 
 }
+XeonBotInc.sendMessage(from, { react: { text: `📚`, key: m.key }}) 
 XeonBotInc.sendMessage(m.chat, buttonMessage )
 }
 
@@ -10184,6 +10203,7 @@ buttons: buttons,
 
 
 }
+XeonBotInc.sendMessage(from, { react: { text: `📚`, key: m.key }}) 
 XeonBotInc.sendMessage(m.chat, buttonMessage )
 }
 break
@@ -10209,6 +10229,7 @@ buttons: buttons,
 
 
 }
+XeonBotInc.sendMessage(from, { react: { text: `📚`, key: m.key }}) 
 XeonBotInc.sendMessage(m.chat, buttonMessage )
 }
 break
@@ -10232,6 +10253,7 @@ buttons: buttons,
 
 
 }
+XeonBotInc.sendMessage(from, { react: { text: `📚`, key: m.key }}) 
 XeonBotInc.sendMessage(m.chat, buttonMessage )
 }
 break
@@ -10256,6 +10278,7 @@ buttons: buttons,
 
 
 }
+XeonBotInc.sendMessage(from, { react: { text: `📚`, key: m.key }}) 
 XeonBotInc.sendMessage(m.chat, buttonMessage )
 }
 break
@@ -10279,6 +10302,7 @@ buttons: buttons,
 
 
 }
+XeonBotInc.sendMessage(from, { react: { text: `📚`, key: m.key }}) 
 XeonBotInc.sendMessage(m.chat, buttonMessage )
 }
 break
@@ -11139,6 +11163,7 @@ break
 	sourceUrl: "https://wa.me/201028453763?text=*اهلا+بك+في+شات+التواصل+مع+المطور+ليدو+اترك+رسالتك+حتي+يتم+الرد+عليك*"
 	}}
 	}
+	XeonBotInc.sendMessage(from, { react: { text: `👨🏻‍💻`, key: m.key }}) 
 	XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
 	}
 				break
@@ -11168,7 +11193,7 @@ break
 			        {buttonId: `command2`, buttonText: {displayText: '● قائمة الاوامر ●'}, type: 1},
 			        {buttonId: `owner`, buttonText: {displayText: '● المطور ●'}, type: 2},
 				]
-				XeonBotInc.sendMessage(from, { react: { text: `💖`, key: m.key }}) 
+				XeonBotInc.sendMessage(from, { react: { text: `😍`, key: m.key }}) 
 				let buttonMessage = { 
 					image: { url: 'https://telegra.ph/file/895eed0f03b9b14c608fb.jpg'}, 		
 					caption: LIDOMD,
