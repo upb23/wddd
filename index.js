@@ -177,7 +177,7 @@ XeonLft = await getBuffer(ppuser)
 🕐╢ وقت دخولك ❬ ${xtime} ❭
 🗓╜ تاريخ دخولك ❬ ${xdate} ❭`
 let buttons = [
-{buttonId: `wkwwk`, buttonText: {displayText: '• نورت جروبنا 🤗'}, type: 1}
+{buttonId: `sound162`, buttonText: {displayText: '• نورت جروبنا 🤗'}, type: 1}
 ]
 let buttonMessage = {
 image: { url: 'https://i.ibb.co/hXtGkzj/welcome-poster-spectrum-brush-strokes-white-background-colorful-gradient-brush-design-vector-paper-i.jpg'},
@@ -208,10 +208,10 @@ XeonBotInc.sendMessage(anu.id, buttonMessage)
 🤗╢  ده ويخرج ده حتى كلنا اخوات واصحاب 🥺❤️
 🦶🏻╢ يلا بالسلامات 😂💗
 👥╢ عدد الاعضاء الان ❬ ${xeonmembers} ❭
-🕐╢ وقت دخولك ❬ ${xeontime} ❭
-🗓╜ تاريخ دخولك ❬ ${xeondate} ❭`
+🕐╢ وقت خروجك ❬ ${xeontime} ❭
+🗓╜ تاريخ خروجك ❬ ${xeondate} ❭`
 let buttons = [
-{buttonId: `bakar`, buttonText: {displayText: '• ليه غادرت جروبنا 😞'}, type: 1}
+{buttonId: `sound163`, buttonText: {displayText: '• ليه غادرت جروبنا 😞'}, type: 1}
 ]
 let buttonMessage = {
 image: { url: 'https://i.ibb.co/gytytkM/images.jpg'},    
