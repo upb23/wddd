@@ -1,5 +1,5 @@
 	
-	//------- بوت واتساب بكار - تطوير وبرجمة ليدو باشا ------\\
+	//------- v 4 = بوت واتساب بكار - تطوير وبرجمة ليدو باشا ------\\
 
 
 	require('./settings')
@@ -14,6 +14,7 @@
 	const yts = require('youtube-yts')
 	const xfar = require('xfarr-api')
 	const request = require('request')
+	const mathjs = require('mathjs')
 	const xeontod = require("tod-api")
 	const { EmojiAPI } = require("emoji-api")
 	const emoji = new EmojiAPI()
@@ -959,7 +960,7 @@ _ده شات البوت_ https://wa.me/${botNumber.split`@`[0]}`, m, { mentions:
 					m.reply(`${m.pushName} *Already Afk*${text ? ': ' + text : ''}`)
 				}
 				break	
-			case 'او': case 'xo': case 'اكس_او': case 'ttt': case 'انا': case 'اكس': {
+			case 'او': case 'xo': case 'اكس_او': case 'ttt': case 'اكس': {
 				let TicTacToe = require("./lib/tictactoe")
 				this.game = this.game ? this.game : {}
 				if (Object.values(this.game).find(room => room.id.startsWith('tictactoe') && [room.game.playerX, room.game.playerO].includes(m.sender))) return m.reply(`*↜ انت في اللعبة بالفعل !!*`)
@@ -1013,7 +1014,7 @@ _ده شات البوت_ https://wa.me/${botNumber.split`@`[0]}`, m, { mentions:
 				state: 'WAITING'
 				}
 				if (text) room.name = text
-				m.reply('*↜ تم بداء اللعبة وتم تسجيلك \n↜ اللي بيلعب يرسل ( انا ) .*' + (text ? `*اهلا بك يقلبي اكتب :  اكس  بس يقلبي 🙂♥️ .*` : ''))
+				m.reply('*↜ تم بداء اللعبة وتم تسجيلك \n↜ اللي بيلعب يرسل ( اكس ) .*' + (text ? `*اهلا بك يقلبي اكتب :  اكس  بس يقلبي 🙂♥️ .*` : ''))
 				this.game[room.id] = room
 				}
 				}
@@ -1032,7 +1033,7 @@ _ده شات البوت_ https://wa.me/${botNumber.split`@`[0]}`, m, { mentions:
 				}
 				}
 				break
-				case 'suitpvp':case 'rps': case 'rockpaperscissors':case 'suit': {
+				case 'suitpvp':case 'حجره': case 'rockpaperscissors':case 'suit': {
             this.suit = this.suit ? this.suit : {}
             let poin = 10
             let poin_lose = 10
@@ -11141,6 +11142,96 @@ break
 	}
 	break
 	//------------------------The End----------------------\\
+
+
+   case 'cowner': {
+   if (!isCreator) return reply(mess.owner)
+   if (!args[0]) return reply('eeee')
+   if (args[1]) {
+   orgnye = args[1]
+   } else if (m.quoted) {
+   orgnye = m.quoted.sender.split("@")[0]
+   }
+   const isCwner = owner.includes(orgnye)
+   if (args[0] === "add") {
+   if (isCwner) return reply('هذا بالفعل مطور')
+   owner.push(orgnye)
+   reply('done ')
+   } else if (args[0] === "del") {
+   if (!isCwner) return reply('ليس مطور')
+   let delcwner = owner.indexOf(orgnye)
+   owner.splice(delcwner, 1)
+   reply('تم حذف المطور')
+   } else {
+   reply("Error")
+   }
+   }
+   break
+
+   case 'chat': {
+if (!isCreator) return reply(mess.owner)
+if (!args.join(" ")) return reply('Example :\n${prefix + command} 916909xxxxxx|Hi')
+const cpes = args.join(" ")
+const nony = cpes.split("|")[0];
+const pesny = cpes.split("|")[1];
+lolh = `*| CHAT |*
+
+Message from owner of bot
+Number : @${m.sender.split("@")[0]}
+Message : ${pesny}`
+XeonBotInc.sendMessage(nony + "@s.whatsapp.net", {text:lolh, mentions:[m.sender]}, {quoted:m})
+}
+await reply("Success")
+break
+
+case 'translate': case 'trt': {
+if (!args.join(" ")) return replay('E dfd')
+tes = await fetchJson (`https://megayaa.herokuapp.com/api/translate?to=en&ar=${args.join(" ")}`)
+Infoo = tes.info
+Detek = tes.translate
+replay(`🌐Translate : ${Detek}\n📘Results : ${Infoo}`)
+}
+break
+
+case "انطق":  case "انطقق":{
+    if (!args[0]) return reply("- انطق + الكلام اللي عايزني انطق")
+      
+      let texttosay = text
+        ? text
+        : m.quoted && m.quoted.text
+        ? m.quoted.text
+        : m.text;
+      const SpeakEngine = require("google-tts-api"); 
+      const texttospeechurl = SpeakEngine.getAudioUrl(texttosay, {lang: "ar", slow: false, host: "https://translate.google.com",});
+      XeonBotInc.sendMessage(m.chat,{audio: {url: texttospeechurl,},mimetype: "audio/mpeg",fileName: `bakarbot.mp3`,},{quoted: m,});
+    }
+    break
+	case 'tts': case 'say':{
+		if (!text) throw `Example : ${prefix + command} text`
+		let tts = await fetchJson(`https://api.akuari.my.id/texttovoice/texttosound_english?query=${text}`)
+		XeonBotInc.sendMessage(m.chat, { audio: { url: tts.result }, mimetype: 'audio/mp4', ptt: true, fileName: `${text}.mp3` }, { quoted: m })
+		}
+	break 
+
+	case 'حاسبه': case 'احسب': case 'حاسبة':{
+	 if (args.length < 1) return reply(`*「 آلــة حــاســبــة بــكار 」*\n\n- مــرحــبــا يا ${pushname}\n\n•  عـ( * )ـلامة :  تعني ضرب ×\n•  عـ( + )ـلامة :  تعني جمع +\n•  عـ( - )ـلامة :  تعني طرح  -\n•  عـ( / )ـلامة :  تعني قسمة ÷\n\n• الامـثـلـة : - \nمــثــال :  احــســب 5*8 \nمــثــال :  احــســب 5+9\nمــثــال :  احــســب 9-2\nمــثــال :  احــســب 10/5\nمــثــال :  احــســب 4+3*9-1/10\n`)
+	 let qsd = args.join(" ")
+	 if (typeof mathjs.evaluate(qsd) !== 'number') {
+	 reply('Error')
+	 } else {
+	 reply(`\`\`\`「 آلة حاسبة بكار 」\`\`\`\n\n*output :* ${qsd} = ${mathjs.evaluate(qsd.replace(/×/g, "*").replace(/x/g, "*").replace(/÷/g, "/"))}\n`)
+	 }
+	 }
+	 break
+	 case 'mmm': case 'yyy':{
+		if (!text) throw `Example : ${prefix + command} text`
+		let ttts = await fetchJson(`https://e-quran.com/pic/p00${text}.jpg`)
+		XeonBotInc.sendMessage(m.chat, { image: { url: ttts }, mimetype: 'image/jpeg', ptt: true, fileName: `${text}.jpg` }, { quoted: m })
+		}
+	break 
+
+	//------------------------The End----------------------\\
+
 
 	case 'ليدو': case 'وليد_محمد': case 'وليد': case 'وليد_محمد': case 'lido': case 'lido7x': case 'ledo': case 'waleed': {
 		teks = `*ــــــــــــــــــــــــــــــــــــــــــــ*\n*◍ › عــايز اي مــن مــطــوري 🙄🙂*\n◍ › ɪɴғᴏʀᴍᴀᴛɪᴏɴѕ ᴅᴇᴠᴇʟᴏᴘᴇʀ ʟɪᴅᴏ ♡\n◍ › ɴᴀᴍᴇ : ᴡᴀʟᴇᴇᴅ ᴍᴏʜᴀᴍᴇᴅ (ʟɪᴅᴏᴏ)\n◍ › ᴀɢᴇ : 20\n◍ › ʙɪᴏ : "-Try ßut Đon't Cry-" \n◍ › ʟᴀɢ : ᴘʏᴛʜᴏɴ, ʟᴜᴀ, ᴘʜᴘ, ʜᴛᴍʟ, ᴊᴀᴠᴀsᴄʀɪᴘᴛ\n◍ › ғʀᴏᴍ : ᴇɢʏᴘᴛ, sᴏʜᴀɢ\n◍ › ɴụᴍ : ( @201028453763 - @201554496598 )\n◍ › ᴛᴇʟᴇ : @J0KER7x\n◍ › ɪɴѕᴛᴀ : @Lido7x\n◍ › ғᴀᴄᴇʙᴏᴏᴋ  : @7WaleedMohamed\n\n*ــــــــــــــــــــــــــــــــــــــــــــ*\n*⤵️︙ اليـكـ زر المطور ليدو 🧑🏻‍💻*`
