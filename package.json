@@ -38,6 +38,8 @@
     "g-i-s": "^2.1.6",
     "genshin-api": "^2.1.0",
     "google-it": "^1.6.3",
+    "mathjs": "^9.4.4",
+    "google-tts-api": "^2.0.2",
     "google-tts-api": "^2.0.2",
     "got": "^11.8.3",
     "human-readable": "^0.2.1",
